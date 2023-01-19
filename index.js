@@ -23,3 +23,5 @@ nextISSTimesForMyLocation((error, data) => {
   printFlyTimes(data);
 
 });
+
+module.exports = { printFlyTimes };
